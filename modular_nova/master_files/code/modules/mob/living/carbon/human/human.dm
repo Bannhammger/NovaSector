@@ -17,12 +17,12 @@
 
 /mob/living/carbon/human/ComponentInitialize()
 	. = ..()
-	if(dna?.species.id == "synth")
+	if(is_synthetic(src))
 		hud_type = /datum/hud/synthetic
 
 /mob/living/carbon/human/update_hud()
 	..()
-	if(hud_used && dna?.species.id == "synth")
+	if(hud_used && is_synthetic(src))
 		hud_used.add_synthetic_diagnostics(src)
 
 /mob/living/carbon/human/Destroy()
