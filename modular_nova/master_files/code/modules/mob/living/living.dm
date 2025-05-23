@@ -13,3 +13,8 @@
 /mob/living/experience_pressure_difference(pressure_difference, direction, pressure_resistance_prob_delta = 0)
 	if(HAS_TRAIT(src, TRAIT_HEAVYSET))
 		return
+
+/mob/living/carbon/human/handle_hud()
+	..()
+	if(hud_used && is_synthetic(src) && hud_used.diag_panel)
+		hud_used.diag_panel.update(src)
