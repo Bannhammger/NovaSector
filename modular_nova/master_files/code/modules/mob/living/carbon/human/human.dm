@@ -15,6 +15,15 @@
 	if(CONFIG_GET(flag/disable_lewd_items))
 		verbs -= /mob/living/carbon/human/verb/safeword
 
+/mob/living/carbon/human/ComponentInitialize()
+	. = ..()
+	if(dna?.species.id == "synth")
+		hud_type = /datum/hud/synthetic
+
+/mob/living/carbon/human/update_hud()
+	..()
+	if(hud_used && dna?.species.id == "synth")
+		hud_used.add_synthetic_diagnostics(src)
 
 /mob/living/carbon/human/Destroy()
 	QDEL_NULL(mob_examine_panel)
