@@ -147,6 +147,9 @@
 		limb.change_appearance(chassis_of_choice.icon, chassis_of_choice.icon_state, !!chassis_of_choice.color_src, limb.body_part == CHEST && chassis_of_choice.dimorphic)
 		limb.name = "\improper[chassis_of_choice.name] [parse_zone(limb.body_zone)]"
 
+/datum/species/synthetic/on_species_gain(mob/living/carbon/human/H)
+	..()
+	H.hud_type = /datum/hud/synthetic
 
 /datum/species/synthetic/on_species_loss(mob/living/carbon/human/human)
 	. = ..()
