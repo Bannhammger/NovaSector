@@ -87,6 +87,8 @@
 		"Arrowhead" = /obj/item/forging/incomplete/arrowhead,
 		"Rail Nail" = /obj/item/forging/incomplete/rail_nail,
 		"Rail Cart" = /obj/item/forging/incomplete/rail_cart,
+		"Chastity Cage" = /obj/item/forging/incomplete/chastity_cage,
+		"Chastity Belt" = /obj/item/forging/incomplete/chastity_belt,
 	)
 	/// List of possible choices for the selection radial
 	var/list/radial_choice_list = list()

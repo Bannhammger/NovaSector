@@ -43,6 +43,8 @@
 		/datum/crafting_bench_recipe/bokken,
 		/datum/crafting_bench_recipe/bow,
 		/datum/crafting_bench_recipe/fishing_rod,
+		/datum/crafting_bench_recipe/chastity_cage,
+		/datum/crafting_bench_recipe/chastity_belt,
 	)
 	/// Radial options for recipes in the allowed_choices list, populated by populate_radial_choice_list
 	var/list/radial_choice_list = list()

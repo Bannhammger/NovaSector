@@ -25,6 +25,18 @@
 				/obj/item/assembly/signaler = 8,
 				/obj/item/clothing/sextoy/vibroring = 6,
 
+				//Chastity devices
+				/obj/item/storage/box/chastity_cage = 4,
+				/obj/item/storage/box/chastity_cage/metal = 3,
+				/obj/item/storage/box/chastity_cage/estim = 2,
+				/obj/item/storage/box/chastity_belt_kit = 3,
+
+				//Milking equipment
+				/obj/item/milking_machine_portable = 3,
+				/obj/item/reagent_containers/cup/beaker/milking_bottle = 10,
+				/obj/item/storage/box/milking_machine_kit = 2,
+				/obj/item/storage/box/milking_upgrades = 2,
+
 				//Dildo (Use-on-crotch)
 				/obj/item/clothing/sextoy/dildo = 8,
 				/obj/item/clothing/sextoy/dildo/double_dildo = 3,
