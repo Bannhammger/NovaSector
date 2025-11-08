@@ -54,6 +54,8 @@
 #define ROLE_PROVOCATEUR "Provocateur"
 #define ROLE_STOWAWAY_CHANGELING "Stowaway Changeling"
 #define ROLE_SYNDICATE_INFILTRATOR "Syndicate Infiltrator"
+#define ROLE_INDEBTED "Indebted"
+#define ROLE_DEBT_ENFORCER "Debt Enforcer"
 
 // Other roles
 #define ROLE_ANOMALY_GHOST "Ectoplasmic Anomaly Ghost"
